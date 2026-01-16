@@ -81,7 +81,11 @@ Example:
 ``` bash
 git clone git@github.com:kodevite/ad-insights.git
 ```
+If you change the project name:
 
+``` bash
+mv -r ./r2strategies-backend/ ./api.r2strategies.ai
+```
 ------------------------------------------------------------------------
 
 ## 🔐 Deploy Keys vs Personal Access Tokens
