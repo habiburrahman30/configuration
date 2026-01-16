@@ -20,6 +20,10 @@ On the machine or server that needs access:
 ``` bash
 ssh-keygen -t ed25519 -C "deploy-key" -f ~/.ssh/deploy_key
 ```
+List all files in .ssh
+``` bash
+ls -l ~/.ssh
+```
 
 This creates:
 
